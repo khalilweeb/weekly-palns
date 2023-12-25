@@ -1,0 +1,35 @@
+.icon {
+    font-size: 25px;
+    display: inline;
+ padding: 5px;
+
+    cursor: pointer;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid #555;
+
+
+  
+}
+.icon:hover {
+    background-color: #666;
+}
+.day {
+    display: inline;
+  
+}
+
+.daydv {
+    background-color: #111;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+    width: 600px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0 20px;
+}
