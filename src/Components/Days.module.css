@@ -9,12 +9,20 @@
     display: flex;
     align-items: center;
     border: 1px solid #555;
+    transition: all ease 0.5s;
 
 
   
 }
+
+.rotate {
+    rotate: 180deg;
+}
+
+
 .icon:hover {
     background-color: #666;
+    
 }
 .day {
     display: inline;
