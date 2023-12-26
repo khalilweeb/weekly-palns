@@ -10,6 +10,8 @@
     align-items: center;
     border: 1px solid #555;
     transition: all ease 0.5s;
+    display: inline;
+    margin: 5px;
 
 
   
