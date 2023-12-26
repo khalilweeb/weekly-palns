@@ -24,29 +24,3 @@
 .form form {
     background-color: #111;
 }
-
-.form input[type="text"] {
-    display: block;
-    
-}
-
-.form input[type="number"] {
-    width: 35px;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 50%;
-   
-}
-
-.form label {
-    display: block;
-    text-align: center;
-}
-
-.form span {
-    font-size: 30px;
-    margin: 5px;
-}
-.form div {
-    display: flex;
-}

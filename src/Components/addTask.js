@@ -5,9 +5,14 @@ const AddTask = (props) => {
 
  const addTaskHandler = e => {
     e.preventDefault()
+    console.log('hei')
+
+ }
+ const timeInputHandler = e => {
+    console.log(e.target.value);
  }
 
- 
+
     return (
         < >
         <div className={clss.backdrop} onClick={props.click}>
@@ -19,20 +24,14 @@ const AddTask = (props) => {
             <input type="text"/>
             <div>
             <label>Time</label>
-            <input type="number"/>
-            <input type="number"/>
-            <span>:</span>
-            <input type="number"/>
-            <input type="number"/>
+            <input type="time" onChange={timeInputHandler}/>
+           
             <label>to</label>
-            <input type="number"/>
-            <input type="number"/>
-            <span>:</span>
-            <input type="number"/>
-            <input type="number"/>
+            <input type="time"  onChange={timeInputHandler}/>
+           
             </div>
        
-<button>Add</button>
+            <button>Add</button>
 
 
         </form>

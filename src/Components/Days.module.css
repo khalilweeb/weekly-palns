@@ -16,6 +16,23 @@
 
   
 }
+.dayContainer {
+    background-color: #111;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0 20px;
+    transition: all ease 0.5s;
+    
+}
+
 
 .rotate {
     rotate: 180deg;
@@ -32,14 +49,35 @@
 }
 
 .daydv {
-    background-color: #111;
-    margin: 50px auto;
-    text-align: center;
     color: #fff;
-    width: 600px;
+    width: 100%;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    border-radius: 30px;
-    padding: 0 20px;
+}
+
+.content {
+    transition: all ease 0.5s;
+    width: 100%;
+    display: none;
+    overflow: hidden;
+    padding-bottom: 20px;
+    
+   
+}
+
+.content div {
+    width: 100%;
+    border-top: 2px solid white;
+    
+}
+
+.time {
+    border-left: 2px solid white;
+}
+
+.show {
+    display: flex;
+    justify-content: space-around;
+    transition: all ease 0.5s;
 }
