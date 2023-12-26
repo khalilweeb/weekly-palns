@@ -25,12 +25,28 @@ const Days = (props) => {
       <div className={`${clss.content} ${up && clss.show}`}>
       <div>
         <h2>tasks</h2>
-        <li>heloo</li>
+        
+           {props.task.map(ele => {
+                return <li>{ele}</li>
+           })}
+   
 
       </div>
       <div className={clss.time}>
-        <h2>Time</h2>
-        <li>heloo</li>
+        <div>
+        <h2>satrt</h2>
+        {props.from.map(ele => {
+            return <li>{ele}</li>
+        })}
+        </div>
+       
+       
+        <div>
+        <h2>finish</h2>
+        {props.to.map(ele => {
+            return <li>{ele}</li>
+        })}
+        </div>
 
       </div>
     </div>
